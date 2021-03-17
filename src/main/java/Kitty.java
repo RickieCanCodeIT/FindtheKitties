@@ -67,7 +67,7 @@ public class Kitty {
             hunger -= bowl.eat((int)Math.floor(Math.random() * 5) + 1, picky, name);
         }
         System.out.println(name + " is now full.");
-
+        meow();
     }
 
     //The kitty meows, indicating success.
